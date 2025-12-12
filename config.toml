@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "cs-cz"
 title = "Michal Berg"
 theme = "PaperMod"
+canonifyURLs = false
+relativeURLs = true
 
 # Zachování jednoduché URL struktury jako v WordPressu
 [permalinks]
@@ -67,6 +69,3 @@ theme = "PaperMod"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-  
-canonifyURLs = false
-relativeURLs = true
