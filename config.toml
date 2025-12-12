@@ -1,0 +1,69 @@
+baseURL = "https://michalberg.cz/"
+languageCode = "cs-cz"
+title = "Michal Berg"
+theme = "PaperMod"
+
+# Zachování jednoduché URL struktury jako v WordPressu
+[permalinks]
+  posts = "/:slug/"
+
+[params]
+  description = "Osobní web Michala Berga - články, komentáře, archiv"
+  author = "Michal Berg"
+  
+  # Sociální sítě
+  [[params.socialIcons]]
+    name = "facebook"
+    url = "https://facebook.com/michalberg"
+  
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/michalberg"
+  
+  [[params.socialIcons]]
+    name = "instagram"
+    url = "https://instagram.com/michalberg"
+
+  # Homepage nastavení
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  
+  # Archiv
+  ShowAllPagesInArchive = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  source = "sources"
+
+[menu]
+  [[menu.main]]
+    identifier = "archiv"
+    name = "Archiv"
+    url = "/archiv/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "media"
+    name = "Média"
+    url = "/sources/"
+    weight = 20
+  
+  [[menu.main]]
+    identifier = "o-mne"
+    name = "O mně"
+    url = "/o-mne/"
+    weight = 30
+  
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv/"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

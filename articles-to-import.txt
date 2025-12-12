@@ -1,0 +1,9 @@
+# Přidej sem URL článků k importu (jeden URL na řádek)
+# Příklad:
+# https://respekt.cz/clanek/nazev-clanku
+# https://denikreferendum.cz/clanek/dalsi-clanek
+
+# Můžeš také zadat vlastní slug oddělený |
+# https://respekt.cz/clanek/xyz|muj-vlastni-slug
+
+# Řádky začínající # jsou ignorovány
