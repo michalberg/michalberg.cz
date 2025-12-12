@@ -39,29 +39,41 @@ class DenikReferendumParser(ArticleParser):
     def parse(self, html, url):
         soup = BeautifulSoup(html, 'html.parser')
         
-        # Titulek
+        # Titulek - zkus og:title (nejspolehlivější)
         title = None
-        title_tag = soup.find('h1', class_='article-title')
-        if title_tag:
-            title = self.clean_text(title_tag.text)
+        og_title = soup.find('meta', property='og:title')
+        if og_title and og_title.get('content'):
+            title = og_title['content']
+            # Odstraň prefix "Michal Berg: " pokud tam je
+            if title.startswith('Michal Berg: '):
+                title = title[13:]
+            title = self.clean_text(title)
         
-        # Perex
+        # Fallback na h1
+        if not title:
+            title_tag = soup.find('h1')
+            if title_tag:
+                title = self.clean_text(title_tag.text)
+        
+        # Popis z og:description
         description = None
-        perex_tag = soup.find('div', class_='perex')
-        if perex_tag:
-            description = self.clean_text(perex_tag.text)
+        og_desc = soup.find('meta', property='og:description')
+        if og_desc and og_desc.get('content'):
+            description = og_desc['content']
         
-        # Hlavní obsah
+        # Hlavní obsah - aktualizovaný selektor
         content = ""
-        article_body = soup.find('div', class_='article-body')
+        article_body = soup.find('div', class_='text')
+        if not article_body:
+            article_body = soup.find('div', class_='articleContentWrapper')
         if article_body:
             content = self.html_to_markdown(article_body)
         
-        # Datum
+        # Datum z meta tagu
         published = None
-        date_tag = soup.find('time')
-        if date_tag and date_tag.get('datetime'):
-            published = date_tag['datetime'].split('T')[0]
+        pub_time = soup.find('meta', property='article:published_time')
+        if pub_time and pub_time.get('content'):
+            published = pub_time['content'].split('T')[0]
         
         # Autor
         author = None
@@ -69,13 +81,11 @@ class DenikReferendumParser(ArticleParser):
         if author_tag:
             author = self.clean_text(author_tag.text)
         
-        # Obrázek
+        # Obrázek z og:image
         image = None
-        img_tag = soup.find('img', class_='article-image')
-        if img_tag and img_tag.get('src'):
-            image = img_tag['src']
-            if not image.startswith('http'):
-                image = 'https://denikreferendum.cz' + image
+        og_image = soup.find('meta', property='og:image')
+        if og_image and og_image.get('content'):
+            image = og_image['content']
         
         return {
             'title': title or 'Bez titulku',
@@ -100,12 +110,20 @@ class RespektBlogParser(ArticleParser):
         if title_tag:
             title = self.clean_text(title_tag.text)
         
-        # Obsah článku
+        # Obsah článku - aktualizovaný selektor
         content = ""
-        article = soup.find('article') or soup.find('div', class_='entry-content')
+        # Zkus post-content (nejlepší)
+        article = soup.find('div', class_='post-content')
+        if not article:
+            # Fallback na layout_content-text
+            article = soup.find('div', class_='layout_content-text')
+        if not article:
+            # Poslední fallback na main
+            article = soup.find('main')
+        
         if article:
             # Odstraň navigaci a další prvky
-            for unwanted in article.find_all(['nav', 'aside', 'footer']):
+            for unwanted in article.find_all(['nav', 'aside', 'footer', 'script']):
                 unwanted.decompose()
             content = self.html_to_markdown(article)
         
@@ -117,9 +135,15 @@ class RespektBlogParser(ArticleParser):
         
         # Obrázek
         image = None
-        img_tag = soup.find('img')
-        if img_tag and img_tag.get('src'):
-            image = img_tag['src']
+        # Zkus og:image
+        og_img = soup.find('meta', property='og:image')
+        if og_img and og_img.get('content'):
+            image = og_img['content']
+        else:
+            # Fallback na první img
+            img_tag = soup.find('img')
+            if img_tag and img_tag.get('src'):
+                image = img_tag['src']
         
         return {
             'title': title or 'Bez titulku',
@@ -190,16 +214,28 @@ class FinmagParser(ArticleParser):
         if title_tag:
             title = self.clean_text(title_tag.text)
         
-        # Perex
+        # Perex z og:description
         description = None
-        perex_tag = soup.find('div', class_='perex') or soup.find('p', class_='lead')
-        if perex_tag:
-            description = self.clean_text(perex_tag.text)
+        og_desc = soup.find('meta', property='og:description')
+        if og_desc and og_desc.get('content'):
+            description = og_desc['content']
         
-        # Obsah
+        # Obsah - aktualizovaný selektor
         content = ""
-        article = soup.find('div', class_='article-content') or soup.find('article')
+        # Zkus nejspecifičtější třídu
+        article = soup.find('div', class_='article-detail__article_content__left__article')
+        if not article:
+            # Fallback na širší selektor
+            article = soup.find('div', class_='article-detail__article_content__left')
+        
         if article:
+            # Odstraň footer, komentáře, reklamy
+            for unwanted in article.find_all(['footer', 'aside', 'script']):
+                unwanted.decompose()
+            # Odstraň author box
+            for author_box in article.find_all('div', class_=lambda x: x and 'author' in str(x).lower()):
+                author_box.decompose()
+            
             content = self.html_to_markdown(article)
         
         # Datum
@@ -225,6 +261,106 @@ class FinmagParser(ArticleParser):
             'image': image
         }
 
+class EkolistParser(ArticleParser):
+    """Parser pro Ekolist.cz"""
+    
+    def parse(self, html, url):
+        soup = BeautifulSoup(html, 'html.parser')
+        
+        # Titulek - z tabulky s obsahem
+        title = None
+        # Ekolist má specifickou strukturu - titulek je v table/td
+        for td in soup.find_all('td'):
+            text = td.text.strip()
+            # Hledáme řádek s datem a jménem autora
+            if 'Michal Berg' in text and any(char.isdigit() for char in text):
+                # Extrahuj titulek před datem
+                parts = text.split('\n')
+                if parts:
+                    title_part = parts[0].strip()
+                    # Odstraň "Michal Berg: " prefix
+                    if title_part.startswith('Michal Berg:'):
+                        title = title_part[12:].strip()
+                    else:
+                        title = title_part
+                break
+        
+        # Fallback na h1 nebo og:title
+        if not title:
+            og_title = soup.find('meta', property='og:title')
+            if og_title and og_title.get('content'):
+                title = og_title['content']
+                if title.startswith('Michal Berg:'):
+                    title = title[12:].strip()
+        
+        # Datum - z textu tabulky
+        published = None
+        for td in soup.find_all('td'):
+            text = td.text.strip()
+            # Hledáme datum ve formátu DD.M.YYYY
+            date_match = re.search(r'(\d{1,2})\.(\d{1,2})\.(\d{4})', text)
+            if date_match:
+                day, month, year = date_match.groups()
+                published = f"{year}-{month.zfill(2)}-{day.zfill(2)}"
+                break
+        
+        # Popis - z prvního odstavce článku
+        description = None
+        # Najdi všechny odstavce
+        paragraphs = soup.find_all('p')
+        for p in paragraphs:
+            text = p.text.strip()
+            # První delší odstavec (víc než 100 znaků)
+            if len(text) > 100 and not text.startswith('Přihlášení'):
+                description = text[:300]
+                break
+        
+        # Obsah - extrahuj text mezi titulkem a diskusí
+        content = ""
+        article_started = False
+        content_parts = []
+        
+        for element in soup.find_all(['p', 'h2', 'h3']):
+            text = element.text.strip()
+            
+            # Skip prázdné a navigační elementy
+            if not text or text.startswith('Přihlášení') or 'Uživatelský e-mail' in text:
+                continue
+            
+            # Začni od prvního odstavce s obsahem
+            if not article_started and len(text) > 50:
+                article_started = True
+            
+            if article_started:
+                # Ukonči před diskusí
+                if 'Online diskuse' in text or 'Další články autora' in text:
+                    break
+                
+                # Přidej odstavec
+                if element.name == 'p':
+                    content_parts.append(text + '\n\n')
+                elif element.name in ['h2', 'h3']:
+                    content_parts.append(f"## {text}\n\n")
+        
+        content = ''.join(content_parts).strip()
+        
+        # Obrázek
+        image = None
+        og_img = soup.find('meta', property='og:image')
+        if og_img and og_img.get('content'):
+            image = og_img['content']
+        
+        return {
+            'title': title or 'Bez titulku',
+            'description': description,
+            'content': content,
+            'published': published,
+            'author': 'Michal Berg',
+            'source': 'Ekolist.cz',
+            'source_url': url,
+            'image': image
+        }
+
 def get_parser_for_url(url):
     """Vrátí správný parser podle URL"""
     url_lower = url.lower()
@@ -237,5 +373,7 @@ def get_parser_for_url(url):
         return MediumSeznamParser()
     elif 'finmag.cz' in url_lower:
         return FinmagParser()
+    elif 'ekolist.cz' in url_lower:
+        return EkolistParser()
     
     return None  # Použije se universal fallback

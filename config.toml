@@ -1,4 +1,4 @@
-baseURL = "https://michalberg.cz/"
+baseURL = "/"
 languageCode = "cs-cz"
 title = "Michal Berg"
 theme = "PaperMod"
@@ -67,3 +67,6 @@ theme = "PaperMod"
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+  
+canonifyURLs = false
+relativeURLs = true

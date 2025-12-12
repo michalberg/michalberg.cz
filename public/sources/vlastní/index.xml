@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Vlastní on Michal Berg</title>
+    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/sources/vlastn%C3%AD/</link>
+    <description>Recent content in Vlastní on Michal Berg</description>
+    <generator>Hugo -- 0.152.2</generator>
+    <language>cs-cz</language>
+    <lastBuildDate>Thu, 12 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/sources/vlastn%C3%AD/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vzorový článek</title>
+      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/vzorovy-clanek/</link>
+      <pubDate>Thu, 12 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/vzorovy-clanek/</guid>
+      <description>&lt;p&gt;Toto je vzorový článek pro otestování webu.&lt;/p&gt;
+&lt;h2 id=&#34;nadpis&#34;&gt;Nadpis&lt;/h2&gt;
+&lt;p&gt;Odstavec textu&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;podnadpis&#34;&gt;Podnadpis&lt;/h3&gt;
+&lt;p&gt;Další text&amp;hellip;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

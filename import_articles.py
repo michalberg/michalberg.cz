@@ -148,6 +148,9 @@ def import_article(url):
         response = requests.get(url, headers=headers, timeout=30)
         response.raise_for_status()
         
+        # KRITICKÉ: Nastav správné kódování
+        response.encoding = 'utf-8'
+        
         # Parsuj
         if parser:
             data = parser.parse(response.text, url)
