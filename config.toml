@@ -15,10 +15,13 @@ relativeURLs = false
       unsafe = true
 
 [params]
-  description = "Osobní web Michala Berga - články, komentáře, archiv"
+  description = "Osobní web Michala Berga - články, komentáře, archiv a kontakty"
   author = "Michal Berg"
   disableSpecial1stPost = true
   mainSections = ["posts"]
+
+  [params.images]
+    - "/og-image.jpg"
   
 [params.assets]
     favicon = "/favicon.ico"
