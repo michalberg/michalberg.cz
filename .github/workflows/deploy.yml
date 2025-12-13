@@ -45,6 +45,13 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
+          echo "=== Hugo Version ==="
+          hugo version
+          echo "=== Base URL ==="
+          echo "${{ steps.pages.outputs.base_url }}/"
+          echo "=== Theme Check ==="
+          ls -la themes/PaperMod/ || echo "Theme missing!"
+          echo "=== Building ==="
           hugo \
             --gc \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
