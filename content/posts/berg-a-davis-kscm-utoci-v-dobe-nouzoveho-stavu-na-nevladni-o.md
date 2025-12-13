@@ -11,12 +11,6 @@ source_url: "https://ekolist.cz/cz/publicistika/nazory-a-komentare/berg-a-davis-
 image: "/images/2025/berg-a-davis-kscm-utoci-v-dobe-nouzoveho-stavu-na-nevladni-o.jpg"
 ---
 
-Zapomněli jste heslo? Změňte si je.
-         Přihlásit se mohou jen ti, kteří se již zaregistrovali.
-
-Zapomněli jste heslo? Změňte si je.
-         Přihlásit se mohou jen ti, kteří se již zaregistrovali.
-
 Návrh komunistických poslanců považuji za útok na občanskou společnost a snahu oslabit jeden z pilířů demokracie v České republice. Je neuvěřitelné, že s ním KSČM přichází v době nouzového stavu, ve kterém mnohé neziskové organizace s vypětím všech sil suplují stát tam, kde nedokáže adekvátně reagovat.
 
 V textu zákona se uvádí, že “Dotace lze poskytnout pouze na realizaci projektů příjemců, jež přispívají k naplňování cílů státní politiky, vyplývajících z hlavních oblastí státní dotační politiky schválených vládou“. O dotace by navíc mohly žádat jen organizace z oblasti kultury, vzdělávání a zdravotních a sociálních služeb.

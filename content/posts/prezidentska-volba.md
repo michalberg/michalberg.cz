@@ -1,0 +1,35 @@
+---
+title: "Prezidentská volba: Kampaň proti Fischerovi relativizuje Zemanovo nebezpečí"
+date: 2013-01-08
+slug: "prezidentska-volba"
+author: "michalberg"
+categories: ['Místní politika']
+tags: ['Fischer', 'nebezpečí', 'politika', 'volby', 'Zeman']
+source: "WordPress"
+---
+
+Na rozdíl od všech ostatních voleb nemám žádného favorita, kterého mohu doporučit s klidným srdcem. Nejprve napíšu, proč je pro mě přímá volba pozitivem a potom něco o tom, jak bych si přál, aby rozumní lidé hlasovali. 
+
+Bez ohledu na to, jaký bude výsledek, jsem rád, že přímou volbu máme - naše společnost se potřebuje neustále učit demokracii a co jiného je přímá volba prezidenta, než všem pochopitelný a jasně čitelný výukový program v reálném světě. A to i s tím rizikem, že volby může vyhrát někdo opravdu nechutný. Bude to škola demokracie, v našem případě pak škola ne tolik voličů, jako politických stran a jejich volebních strategií pro příští volby.
+
+Nejde popřít, že lidé se o kandidáty zajímají, zjišťují si informace, sledují debaty. Příkladů je mnoho, ale jeden za všechny: ačkoli nepřeceňuju <a href="http://volebnikalkulacka.cz">Volební kalkulačku</a>, oceňuju že se jí klukům z <a href="http://KohoVolit.eu">KohoVolit.eu</a> podařilo prosadit do veřejné debaty jako běžný nástroj zjišťování politického názoru. Někteří politici ji začali brát natolik vážně, že s prezidentskými volbami nijak nesouvisející a naprosto marginální otázku na podporu výuky romštiny dokonce umístil Přemysl Sobotka na svůj předvolební leták;)
+
+Dá se očekávat, že volební účast bude velmi vysoká (nejen z průzkumů, ale i ze zkušeností například Slovenska). Je to první volba, ve které mají billboardy menší význam, ostatně jich je venku výrazně méně než u jiných typů voleb. Lidé se o prezidentské volbě baví a mnohem více než u jiných voleb se netají tím, komu dají hlas. Proč to považuju za dobré? Protože pokud svou volbu zveřejníte, budete muset více než kdy jindy si ji v diskusi - ať už má podobu pivní debaty v hospodě, facebookového tlachání nebo sofistikovaného článku - obhájit. A nutnost obhajovat svá rozhodnutí a přemýšlet o nich vede dle mého názoru k odpovědnějšímu občanskému chování. 
+
+K ničemu takovému by volba parlamentem, ve které by o novém prezidentovi rozhodovali nechutné situace v podobě vyhrožování či zapírání se poslanců jako před pěti lety, v žádném případě nevedla. S největší pravděpodobností by o novém prezidentovi rozhodlo to, na čí stranu se blahosklonně přikloní komunističtí poslanci - děkuji, tohle už opravdu nechci.
+
+Jako bonus potom vidím osobnosti, o kterých se dříve moc nevědělo a u kterých doufám, že pokud ve volbě neuspějí, tak budou dále veřejně působit a využijí zájem o ně pro nějaké smysluplné veřejné angažmá. Ať už je to Vladimír Franz a Táňa Fischerová, kteří dokázali aktivizovat velké skupiny občanských podporovatelů a přinášejí do veřejné diskuse možná menšinové, ale o to zajímavější názory a pohledy. Nebo Zuzana Roithová, která ukázala že ženy ve vrcholné politice nemusí mít podobu blonďatých bestií nebo tupých družinářek, ale kultivovaných a schopných dam. Mimochodem, bývalá slovenská premiérka Radičová se do své funkce dostala také až jako neúspěšná kandidátka na prezidentku. 
+
+A nyní k samotným kandidátům. Není tajemstvím, že pro mě je měřítkem odpornosti v politice jeden <em>klaus</em>. Proto jsem kandidáty zkoumal v jeho odraze - a v podstatě jediným relevantním kritériem pro mě bylo, aby nový prezident nepředstavoval pokračování toho hnusu, jaký předváděl ten dosavadní. 
+
+Nepotřebuju ideálního prezidenta, dokonce nemám v tuto chvíli výraznější požadavky na prezidenta, než aby pokud možno už dál neškodil téhle zemi. Svoje ideální požadavky na politiky budu prosazovat v jiných volbách, kterých se aktivně účastním, a ve kterých nahlas říkám, jak by měly věci vypadat. U prezidentské osoby jsme bohužel díky Klausovi klesli tak hluboko, že mi bude ke spokojenosti stačit, když se vyjádřím, jak by to vypadat nemělo.
+
+Z tohoto hlediska je pro mě naprosto nepřijatelné pokládat na stejnou úroveň "nebezpečnost" Miloše Zemana a Jana Fischera, jak to činí mnoho lidí. "Hlavně ať není prezidentem Zeman nebo Fischer!," je slyšet ze všech stran. Ač je třeba Fischer bezpáteřní, beznázorový nebo ve vleku svých sponzorů, jsem přesvědčen, že v jeho případě pokračování odporného a nebezpečného stylu vládnutí zdaleka tolik nehrozí. 
+
+Tímto kladením Fischera na úroveň Zemana totiž dochází k velmi nebezpečnému relativizování odporností, které Miloš Zeman za doby svého vládnutí sám konal, nebo alespoň blahosklonně přehlížel. Věnujte tomu tu necelou hodinu a pusťte si znovu dokument <a href="http://www.ceskatelevize.cz/ivysilani/10123147075-vladneme-nerusit/407235100021003/">Vládneme, nerušit</a>. Opoziční smlouva, snaha ohýbat ústavu ve svůj prospěch, aktivní diskreditace politických soupeřů, Šloufovy kontakty s mafiánem Mrázkem, zkorumpovaná privatizace Mostecké uhelné spřáteleným kruhům, mocenské ovládnutí státních firem, spolupráce s naprosto odpornými lidmi jako je Karel Srba (později odsouzen na 12 let za přípravu vraždy Sabiny Slonkové), k tomu všechny ty alkoholické oplzlosti a nově i výsměch v podobě peněz Lukoilu a daších nepřiznaných sponzorů - dál snad netřeba pokračovat. Po shlédnutí toho dokumentu si položte si otázku, zda je něčeho podobného schopen kterýkoli z dalších kandidátů.
+
+Prezidenta v podobě aktivní silné osobnosti jsme si po revoluci užili jak v tom dobrém, tak v tom špatném. Myslím, že je čas, aby se konečně úřad prezidenta zcivilizoval a po desetiletém extempore Václava Klause mi v podstatě stačí, aby jeho představitel nebyl tím, kdo bude určovat míru nechutnosti v České republice. 
+
+Proto říkám naprosto otevřeně, že v porovnání s Milošem Zemanem není pro mě skutečnost, že by se prezidentem stal Jan Fischer, noční můrou (nevýznamnou Bobošíkovu možno nekomentovat). Samozřejmě budu radši, pokud jím bude kdokoli jiný ze zbývajících relevantních kandidátů, ale - pokud jím bude Fischer, se všemi svými Soukupy a Chrenky za zády, je to stále lepší než Zeman. U Fischera je to v tuto chvíli jen nejistota, podezření či indicie toho, že by to mohlo být špatné, u Zemana je to naprostá jistota. 
+
+Informace koho budu volit se v tomto článku nedočkáte - v tuto chvíli to sám nevím a rozhodnu se zřejmě až na poslední chvíli. Z předchozích řádků tedy vyplývá mé jediné doporučení pro prezidentské volby: prosím, v žádném případě nehlasujte pro Miloše Zemana a pokud se setkáte s někým, kdo o jeho volbě uvažuje, snažte se mu ji s poukazem na všechna zmíněná nebezpečí rozmluvit. A pokud by byl ve druhém kole proti němu nebenesympatičtější člověk, dejte mu hlas jen pro to, aby se Zeman nestal prezidentem. Byla by to sice (slovy Martina Dejdara) "trochu legrace", ale hlavně pro Zemana. Nám ostatním by dřív nebo později zmrzl úsměv na rtech. 

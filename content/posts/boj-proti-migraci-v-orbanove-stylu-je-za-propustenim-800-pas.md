@@ -9,9 +9,6 @@ source: "Medium Seznam"
 source_url: "https://medium.seznam.cz/clanek/michal-berg-boj-proti-migraci-v-orbanove-stylu-je-za-propustenim-800-paseraku-snaha-vydirat-eu-20924"
 image: "/images/2025/boj-proti-migraci-v-orbanove-stylu-je-za-propustenim-800-pas.jpeg"
 ---
-
-###### Článek
-
 Tento krok je považován za hlavní důvod nárůstu migrace z Maďarska na Slovensko. Za poslední měsíce přešlo na jih Slovenska z Maďarska až 20 tisíc migrantů, převážně původem z válčící Sýrie. To ovlivnilo nejen situaci přímo v místě - starostové obcí na jihu Slovenska na takové množství příchozích nejsou samozřejmě připraveni. Logicky to ale následně ovlivňuje i celou slovenskou politiku. Vedení policie se snaží situaci pomáhat řešit a nejvíce zatíženým okresům odlehčit, ale ve vypjaté předvolební situaci se eskalace situace hodí skoro všem - uprchlickou kartou šermují politici od Fica po Sulíka.
 
 Každého musí napadnout, jak je možné, že Maďarskem lidé na útěku prochází, když mělo být tou pevností, která stráží balkánskou migrační cestu? Navíc to přináší problémy zejména maďarské menšině na jižním Slovensku, zejména její starostové musí řešit dopady nárůstu migrace. Že by Orbán takto zatápěl svým krajanům zpoza hranice?

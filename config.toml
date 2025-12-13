@@ -9,9 +9,21 @@ relativeURLs = true
 [permalinks]
   posts = "/:slug/"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
   description = "Osobní web Michala Berga - články, komentáře, archiv"
   author = "Michal Berg"
+  disableSpecial1stPost = true
+
+  mainSections = ["posts"]
+  
+  # ProfileMode VYPNUTÝ - chceme články na homepage
+  [params.profileMode]
+    enabled = false
   
   # Sociální sítě
   [[params.socialIcons]]
@@ -25,14 +37,18 @@ relativeURLs = true
   [[params.socialIcons]]
     name = "instagram"
     url = "https://instagram.com/michalberg"
+  
+  [[params.socialIcons]]
+    name = "Bluesky"
+    url = "https://bsky.app/profile/michalberg.cz"
 
   # Homepage nastavení
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
-  ShowWordCount = true
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
   
   # Archiv
   ShowAllPagesInArchive = true
@@ -43,29 +59,18 @@ relativeURLs = true
   source = "sources"
 
 [menu]
-  [[menu.main]]
-    identifier = "archiv"
-    name = "Archiv"
-    url = "/archiv/"
-    weight = 10
-  
-  [[menu.main]]
-    identifier = "media"
-    name = "Média"
-    url = "/sources/"
-    weight = 20
   
   [[menu.main]]
     identifier = "o-mne"
     name = "O mně"
-    url = "/o-mne/"
-    weight = 30
+    url = "/"
+    weight = 10
   
-  [[menu.main]]
-    identifier = "cv"
-    name = "CV"
-    url = "/cv/"
-    weight = 40
+[[menu.main]]
+    identifier = "archiv"
+    name = "Archiv"
+    url = "/archiv/"
+    weight = 20
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

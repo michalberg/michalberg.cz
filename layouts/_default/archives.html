@@ -1,0 +1,77 @@
+{{- define "main" }}
+
+<header class="page-header">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">{{ .Description }}</div>
+  {{- end }}
+</header>
+
+<style>
+.archive-year {
+  margin-bottom: 3rem;
+}
+
+.archive-year h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--border);
+}
+
+.archive-posts {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.archive-posts li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+}
+
+.archive-posts li:last-child {
+  border-bottom: none;
+}
+
+.archive-posts a {
+  flex: 1;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.archive-posts a:hover {
+  text-decoration: underline;
+}
+
+.archive-meta {
+  color: var(--secondary);
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+</style>
+
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- range $pages.GroupByDate "2006" }}
+<div class="archive-year">
+  <h2>{{ .Key }}</h2>
+  <ul class="archive-posts">
+  {{- range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      <span class="archive-meta">
+        {{ .Date.Format "02.01.2006" }}
+        {{- with .Param "source" }} · {{ . }}{{- end }}
+      </span>
+    </li>
+  {{- end }}
+  </ul>
+</div>
+{{- end }}
+
+{{- end }}

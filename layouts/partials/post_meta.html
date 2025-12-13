@@ -1,0 +1,47 @@
+{{- $scratch := newScratch }}
+
+{{- if not .Date.IsZero -}}
+{{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date.Format "02.01.2006"))) }}
+{{- end }}
+
+{{- with (partial "translation_list.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+
+{{- if .IsPage }}
+  {{- /* Na detailu článku: autor + source s odkazem */ -}}
+  {{- with (.Param "author") }}
+    {{- $author := . }}
+    {{- with ($.Param "source") }}
+      {{- $source := . }}
+      {{- with ($.Param "source_url") }}
+        {{- $scratch.Add "meta" (slice (printf "%s pro <a href='%s'>%s</a>" $author . $source)) }}
+      {{- else }}
+        {{- $scratch.Add "meta" (slice (printf "%s pro %s" $author $source)) }}
+      {{- end }}
+    {{- else }}
+      {{- $scratch.Add "meta" (slice $author) }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- /* Na homepage/listu: jen source bez odkazu */ -}}
+  {{- with (.Param "source") }}
+  {{- $scratch.Add "meta" (slice .) }}
+  {{- end }}
+{{- end }}
+
+{{- with (.Param "ShowReadingTime") }}
+{{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime)) }}
+{{- end }}
+
+{{- with (partial "breadcrumbs.html" .) }}
+{{- $scratch.Add "meta" (slice .) }}
+{{- end }}
+
+{{- if (.Param "ShowWordCount") }}
+{{- $scratch.Add "meta" (slice (i18n "words" .WordCount)) }}
+{{- end }}
+
+{{- with ($scratch.Get "meta") }}
+{{- delimit . "&nbsp;·&nbsp;" | safeHTML -}}
+{{- end -}}

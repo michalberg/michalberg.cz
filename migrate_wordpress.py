@@ -63,7 +63,8 @@ def parse_wordpress_xml(xml_file):
     namespaces = {
         'content': 'http://purl.org/rss/1.0/modules/content/',
         'wp': 'http://wordpress.org/export/1.2/',
-        'dc': 'http://purl.org/dc/elements/1.1/'
+        'dc': 'http://purl.org/dc/elements/1.1/',
+        'excerpt': 'http://wordpress.org/export/1.2/excerpt/'
     }
     
     posts = []
@@ -113,8 +114,8 @@ def parse_wordpress_xml(xml_file):
                 tags.append(category.text)
         
         # Excerpt
-        excerpt = item.find('excerpt:encoded', namespaces)
-        excerpt = excerpt.text if excerpt is not None and excerpt.text else None
+        excerpt_tag = item.find('excerpt:encoded', namespaces)
+        excerpt = excerpt_tag.text if excerpt_tag is not None and excerpt_tag.text else None
         
         posts.append({
             'title': title,
@@ -133,16 +134,20 @@ def create_post_file(post):
     """Vytvoř Markdown soubor pro článek"""
     CONTENT_DIR.mkdir(parents=True, exist_ok=True)
     
+    # Escapuj uvozovky v title
+    title_escaped = post['title'].replace('"', r'\"')
+    
     # Front matter
     front_matter = f"""---
-title: "{post['title'].replace('"', '\\"')}"
+title: "{title_escaped}"
 date: {post['date']}
 slug: "{post['slug']}"
 author: "{post['author']}"
 """
     
     if post.get('excerpt'):
-        front_matter += f'description: "{post["excerpt"].replace('"', "\\"")[:200]}"\n'
+        excerpt_escaped = post['excerpt'].replace('"', r'\"')[:200]
+        front_matter += f'description: "{excerpt_escaped}"\n'
     
     if post.get('categories'):
         front_matter += f"categories: {post['categories']}\n"
@@ -150,12 +155,12 @@ author: "{post['author']}"
     if post.get('tags'):
         front_matter += f"tags: {post['tags']}\n"
     
-    front_matter += "source: \"WordPress\"\n"
+    front_matter += 'source: "WordPress"\n'
     front_matter += "---\n\n"
     
-    # Převeď HTML na Markdown
-    content = clean_html(post['content'])
-    
+    # nePřeveď HTML na Markdown
+    content = post['content'] if post['content'] else ''
+
     # Najdi obrázky v obsahu a stáhni je
     img_pattern = r'!\[.*?\]\((https?://[^\)]+)\)'
     images = re.findall(img_pattern, content)
@@ -195,7 +200,7 @@ def main():
     print(f"📊 Nalezeno {len(posts)} publikovaných článků")
     
     # Vytvoř soubory
-    print("\n📝 Vytvářím Markdown soubory...")
+    print("\n�� Vytvářím Markdown soubory...")
     for post in posts:
         create_post_file(post)
     

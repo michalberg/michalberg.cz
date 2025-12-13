@@ -10,8 +10,6 @@ source_url: "https://medium.seznam.cz/clanek/michal-berg-motoriste-budou-v-klima
 image: "/images/2025/motoriste-budou-v-klimatu-couvat-logika-ciste-energie-je-ste.jpeg"
 ---
 
-###### Článek
-
 Deset let po podpisu Pařížské dohody můžeme konstatovat, že se podařilo zásadně změnit trajektorii budoucího vývoje. Před rokem 2015 svět směřoval k oteplení o 4-5 °C do konce století. Díky politikám a pokroku v čisté energii, které následovaly po Pařížské dohodě, směřujeme nyní k oteplení o 2,8 °C. A pokud všechny země splní své klimatické závazky, mohlo by být oteplení dokonce jen 2,4 °C.
 
 To je stále nedostatečné – cílem Pařížské dohody bylo udržet oteplení pod 2 °C. Každá desetina stupně nad touto hranicí znamená intenzivnější vlny veder, vyšší hladinu moří, více extrémních bouří, delší období sucha a větší škody na životech i majetku. Dobrá zpráva však je, že máme nástroje, jak tuto trajektorii dál zlepšovat – a využití těchto nástrojů se po celém světě zrychluje. Vítejte v seznamu dobrých zpráv o klimatu.
