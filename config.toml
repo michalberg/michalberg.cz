@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://michalberg.github.io/michalberg.cz/"
 languageCode = "cs-cz"
 title = "Michal Berg"
 theme = "PaperMod"
@@ -12,6 +12,7 @@ relativeURLs = true
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
+    
       unsafe = true
 
 [params]
