@@ -11,21 +11,12 @@
       {{ .Title }}
       {{- if .Draft }}<sup><span class="entry-hint" title="Draft">[Draft]</span></sup>{{- end }}
     </h1>
-    {{- if (.Param "ShowPostNavLinks") }}
-    {{- partial "post_nav_links.html" . }}
-    {{- end }}
   </header>
   
   {{- with .Params.image }}
   <div class="post-cover">
     <img src="{{ . }}" alt="{{ $.Title }}" style="max-width: 100%; height: auto; margin: 2rem 0;">
   </div>
-  {{- end }}
-  
-  {{- $isHidden := (.Param "cover.hidden") | default (.Site.Params.cover.hidden) | default false }}
-  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
-  {{- if (.Param "ShowToc") }}
-  {{- partial "toc.html" . }}
   {{- end }}
 
   {{- if .Content }}
@@ -36,13 +27,6 @@
   </div>
   {{- end }}
 
-  <footer class="post-footer">
-    {{- partial "post_tags.html" . -}}
-  </footer>
-
-  {{- if (.Param "comments") }}
-  {{- partial "comments.html" . }}
-  {{- end }}
 </article>
 
 {{- end }}{{/* end main */}}
