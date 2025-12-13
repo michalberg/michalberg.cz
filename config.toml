@@ -2,8 +2,8 @@ baseURL = "https://michalberg.github.io/michalberg.cz/"
 languageCode = "cs-cz"
 title = "Michal Berg"
 theme = "PaperMod"
-canonifyURLs = false
-relativeURLs = true
+canonifyURLs = true
+relativeURLs = false
 
 # Zachování jednoduché URL struktury jako v WordPressu
 [permalinks]
@@ -12,14 +12,12 @@ relativeURLs = true
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
-    
       unsafe = true
 
 [params]
   description = "Osobní web Michala Berga - články, komentáře, archiv"
   author = "Michal Berg"
   disableSpecial1stPost = true
-
   mainSections = ["posts"]
   
   # ProfileMode VYPNUTÝ - chceme články na homepage
@@ -50,8 +48,6 @@ relativeURLs = true
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = false
   ShowWordCount = false
-  
-  # Archiv
   ShowAllPagesInArchive = true
 
 [taxonomies]
@@ -60,14 +56,13 @@ relativeURLs = true
   source = "sources"
 
 [menu]
-  
   [[menu.main]]
     identifier = "o-mne"
     name = "O mně"
     url = "/"
     weight = 10
   
-[[menu.main]]
+  [[menu.main]]
     identifier = "archiv"
     name = "Archiv"
     url = "/archiv/"
