@@ -70,6 +70,12 @@ relativeURLs = false
     weight = 10
   
   [[menu.main]]
+    identifier = "podcasty"
+    name = "Podcasty"
+    url = "/podcasty/"
+    weight = 15
+
+  [[menu.main]]
     identifier = "archiv"
     name = "Archiv"
     url = "/archiv/"

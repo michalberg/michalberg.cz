@@ -1,0 +1,16 @@
+# Seznam podcastových vystoupení
+# Formát:
+#   - title: "Název epizody"
+#     media: "Název podcastu / média"
+#     date: 2025-01-15
+#     spotify: "https://open.spotify.com/episode/EPISODE_ID"
+#     youtube: "https://www.youtube.com/watch?v=VIDEO_ID"
+#
+# Stačí vyplnit spotify nebo youtube (nebo obojí).
+# Řazení: nejnovější nahoře.
+
+- title: "Ukázková epizoda - nahraď skutečnými daty"
+  media: "Název podcastu"
+  date: 2025-01-01
+  spotify: ""
+  youtube: ""
