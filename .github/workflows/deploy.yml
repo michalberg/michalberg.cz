@@ -54,7 +54,7 @@ jobs:
           echo "=== Building ==="
           hugo \
             --gc \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://michalberg.cz/"
       
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

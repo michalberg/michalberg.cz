@@ -1,4 +1,4 @@
-baseURL = "https://michalberg.github.io/michalberg.cz/"
+baseURL = "https://michalberg.cz/"
 languageCode = "cs-cz"
 title = "Michal Berg"
 theme = "PaperMod"
