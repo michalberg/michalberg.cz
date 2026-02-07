@@ -15,7 +15,7 @@ images:
 
 <div style="clear: both;"></div>
 
-**Kontakt:** 📧 [michal.berg@faktaoklimatu.cz](mailto:michal.berg@faktaoklimatu.cz) | 📱 603 102 284
+**Kontakt:** 📧 [michal.berg@faktaoklimatu.cz](mailto:michal.berg@faktaoklimatu.cz) | 📱 [+420 603 102 284](tel:+420603102284)
 
 **Najdete mě na:** [Facebook](https://facebook.com/michalberg) | [LinkedIn](https://linkedin.com/in/michalberg) | [Instagram](https://instagram.com/michalberg) | [Bluesky](https://bsky.app/profile/michalberg.cz)
 
