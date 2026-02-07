@@ -1,6 +1,6 @@
 baseURL = "https://michalberg.cz/"
 languageCode = "cs-cz"
-title = "Michal Berg"
+title = "Michal Berg - archiv článků, komentáře, kontakty"
 theme = "PaperMod"
 canonifyURLs = true
 relativeURLs = false
