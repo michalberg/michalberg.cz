@@ -66,7 +66,7 @@ relativeURLs = false
   [[menu.main]]
     identifier = "o-mne"
     name = "O mně"
-    url = "/"
+    url = "/pages/o-mne/"
     weight = 10
   
   [[menu.main]]
