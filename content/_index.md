@@ -2,7 +2,7 @@
 title: "Michal Berg - archiv článků, komentáře, kontakty"
 description: "Osobní web Michala Berga - články o klimatu, politice a feminismu. Pracuji pro Fakta o klimatu, jsem řadový člen Zelených."
 images:
-  - /michalberg.cz/og-image.jpg
+  - /og-image.jpg
 ---
 
 <img src="/images/michal-berg.jpg" alt="Michal Berg" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover; float: right; margin-left: 20px;">
