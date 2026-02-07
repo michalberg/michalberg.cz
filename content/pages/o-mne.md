@@ -15,3 +15,7 @@ layout: "page"
 **Kontakt:** 📧 [michal.berg@faktaoklimatu.cz](mailto:michal.berg@faktaoklimatu.cz) | 📱 603 102 284
 
 **Najdete mě na:** [Facebook](https://facebook.com/michalberg) | [LinkedIn](https://linkedin.com/in/michalberg) | [Instagram](https://instagram.com/michalberg) | [Bluesky](https://bsky.app/profile/michalberg.cz)
+
+---
+
+**Profil pro media či veřejná vystoupení:** Dříve podnikal v IT, dlouhodobě se věnuje komunální politice a v letech 2020-2024 byl spolupředsedou Strany zelených, jejíž je nyní řadovým členem. Pracuje v think-tanku Fakta o klimatu a zajímá se o udržitelnou dopravu - rád cestuje po městě na cargo kole nebo po Evropě vlakem. Se ženou vychovává šestiletou dceru.
