@@ -54,7 +54,7 @@
 {{- /* Homepage search box - above articles, only on first page */ -}}
 {{- if and .IsHome (eq $paginator.PageNumber 1) }}
 <div class="home-search">
-  <form action="{{ "hledani/" | absURL }}" method="get" class="home-search-form">
+  <div class="home-search-form">
     <label for="homeSearchInput" class="home-search-label">
       <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -64,25 +64,47 @@
     </label>
     <input id="homeSearchInput" type="search" placeholder="Hledat v článcích..."
         aria-label="Hledat v článcích" autocomplete="off">
-  </form>
+  </div>
+  <ul id="homeSearchResults"></ul>
 </div>
+{{- $fusejs := resources.Get "js/fuse.basic.min.js" }}
+<script src="{{ $fusejs.RelPermalink }}"></script>
 <script>
-document.getElementById('homeSearchInput').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') {
-        e.preventDefault();
+(function() {
+    var input = document.getElementById('homeSearchInput');
+    var resultsList = document.getElementById('homeSearchResults');
+    var fuse;
+
+    fetch('{{ "index.json" | absURL }}')
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+            fuse = new Fuse(data, {
+                distance: {{ site.Params.fuseOpts.distance | default 1000 }},
+                threshold: {{ site.Params.fuseOpts.threshold | default 0.4 }},
+                ignoreLocation: true,
+                minMatchCharLength: {{ site.Params.fuseOpts.minmatchcharlength | default 3 }},
+                keys: ['title', 'permalink', 'summary', 'content']
+            });
+        });
+
+    input.addEventListener('input', function() {
         var q = this.value.trim();
-        if (q) {
-            window.location.href = '{{ "hledani/" | absURL }}' + '#' + encodeURIComponent(q);
-        } else {
-            window.location.href = '{{ "hledani/" | absURL }}';
+        if (!fuse || !q) {
+            resultsList.innerHTML = '';
+            return;
         }
-    }
-});
-document.getElementById('homeSearchInput').addEventListener('click', function() {
-    if (!this.value.trim()) {
-        window.location.href = '{{ "hledani/" | absURL }}';
-    }
-});
+        var results = fuse.search(q, {limit: {{ site.Params.fuseOpts.limit | default 20 }}});
+        if (results.length) {
+            resultsList.innerHTML = results.map(function(r) {
+                return '<li class="post-entry"><header class="entry-header">' +
+                    r.item.title + '&nbsp;»</header>' +
+                    '<a href="' + r.item.permalink + '" aria-label="' + r.item.title + '"></a></li>';
+            }).join('');
+        } else {
+            resultsList.innerHTML = '<li class="post-entry"><header class="entry-header">Nic nenalezeno</header></li>';
+        }
+    });
+})();
 </script>
 {{- end }}
 
