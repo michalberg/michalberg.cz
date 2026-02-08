@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Aktivismus on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/aktivismus/</link>
-    <description>Recent content in Aktivismus on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Aktivismus on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/tags/aktivismus/</link>
+    <description>Recent content in Aktivismus on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Mon, 25 Mar 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/aktivismus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/tags/aktivismus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Aktivismus is the new cool</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/aktivismus-is-the-new-cool/</link>
+      <link>https://michalberg.cz/aktivismus-is-the-new-cool/</link>
       <pubDate>Mon, 25 Mar 2013 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/aktivismus-is-the-new-cool/</guid>
+      <guid>https://michalberg.cz/aktivismus-is-the-new-cool/</guid>
       <description>&lt;p&gt;Protože jsem sám strávil hromadu času pořádáním barcampů na Vsetíně, tak sám vím jak je skvělý pocit si po akci číst články, tweety a komentáře o tom, jak se to všechno povedlo. Tímto článkem tedy týmu kolem Svati Bartíka i všem zúčastněným děkuji za skvělý &lt;a href=&#34;http://www.boritanicit.cz&#34;&gt;brněnský víkend&lt;/a&gt;. Sobě i ostatním tím také připomínám jedno z často opomíjených pravidel: Stejně hlasitě, jak se dokážeme ozvat pokud jsme nespokojeni, bychom měli vyjadřovat spokojenost - čistě proto, abychom mohli být spokojeni i příště. Ale protože to by bylo na článek málo, a protože moje pokusy o vtipné články končí zpravidla trapně, přidávám ještě pár lehce patetických a naivních myšlenek, které se mi vynořili v hlavě po odeznění kocoviny a odfiltrování nánosů dopaminů z humoristické části barcampu. Co mi tedy v hlavě zůstalo?&lt;/p&gt;</description>
     </item>
   </channel>

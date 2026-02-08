@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Otevřenost on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/otev%C5%99enost/</link>
-    <description>Recent content in Otevřenost on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Otevřenost on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/tags/otev%C5%99enost/</link>
+    <description>Recent content in Otevřenost on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Sun, 09 Dec 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/otev%C5%99enost/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/tags/otev%C5%99enost/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pavle Blažku, tenhle boj nemůžete vyhrát</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/pavel-blazek/</link>
+      <link>https://michalberg.cz/pavel-blazek/</link>
       <pubDate>Sun, 09 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/pavel-blazek/</guid>
+      <guid>https://michalberg.cz/pavel-blazek/</guid>
       <description>&lt;ul&gt;
 &lt;li&gt; &#34;ženy neměly volební právo stovky let, tak nevěřím, že tím, že jim ho přiznáme, pomáháme demokracii&#34;&lt;/li&gt;
 &lt;li&gt; &#34;černoši nemohli chodit do stejných škol jako bílí stovky let, tak nevěřím, že když budou moci, pomáháme demokracii&#34;&lt;/li&gt;

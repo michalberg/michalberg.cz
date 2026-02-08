@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Klaus on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/klaus/</link>
-    <description>Recent content in Klaus on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Klaus on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/tags/klaus/</link>
+    <description>Recent content in Klaus on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Sat, 17 Nov 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/klaus/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/tags/klaus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pane prezidente, máme právo i na informace, které se vám nehodí</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/klaus/</link>
+      <link>https://michalberg.cz/klaus/</link>
       <pubDate>Sat, 17 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/klaus/</guid>
+      <guid>https://michalberg.cz/klaus/</guid>
       <description>&lt;p&gt;Václava Klause v den výročí 17. listopadu &lt;a href=&#34;http://www.klaus.cz/clanky/3240&#34;&gt;znepokojuje to&lt;/a&gt;, co vidí dnes a denně kolem sebe: nikoli rozkrádání a rozpad právního státu, ale &amp;ldquo;tzv. informační společnost&amp;rdquo;.&lt;/p&gt;
 &lt;blockquote&gt;Soudobá &lt;strong&gt;tzv. informační společnost&lt;/strong&gt;, což považuji za zvláště absurdní název, protože bych ji spíše nazval neinformovanou společností, s její apoteózou internetu a tzv. sociálních sítí &lt;strong&gt;nás ohlušuje záplavou nestrukturovaných, navíc často více méně irelevantních dat či informací&lt;/strong&gt;. Když jsme současně poztráceli, resp. nechali si poškodit a zneuctít naše tradiční hodnotové a myšlenkové vzorce, &lt;strong&gt;nemáme tyto informace kam ukládat a jak je řadit a vyhodnocovat&lt;/strong&gt;. Tímto způsobem vznikla rychle průjezdná informační dálnice směřující k nebezpečnému zapomínání.&lt;/blockquote&gt;
 &lt;p&gt;Pane prezidente, neexistuje svoboda bez plného přístupu k informacím. Bez ohledu na to, jak je vládnoucí třída považuje za více či méně relevantní. Dostupnost informací pro všechny a svoboda s nimi nakádat podle vlastního uvážení je základem demokraticky fungující společnosti. Ostatně o tom mluví i naše ústava.&lt;/p&gt;</description>

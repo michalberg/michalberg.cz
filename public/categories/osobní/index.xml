@@ -1,55 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Osobní on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/categories/osobn%C3%AD/</link>
-    <description>Recent content in Osobní on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Osobní on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/categories/osobn%C3%AD/</link>
+    <description>Recent content in Osobní on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Sat, 23 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/categories/osobn%C3%AD/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/categories/osobn%C3%AD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kandidátský projev do předsednictva Strany zelených na sjezdu 2016</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/sz2016/</link>
+      <link>https://michalberg.cz/sz2016/</link>
       <pubDate>Sat, 23 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/sz2016/</guid>
+      <guid>https://michalberg.cz/sz2016/</guid>
       <description>&lt;p&gt;Můj kandidátský projev do předsednictva Strany zelených na sjezdu 22. ledna 2015.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Veselka je ukrajinsky duha</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/veselka-je-ukrajinsky-duha/</link>
+      <link>https://michalberg.cz/veselka-je-ukrajinsky-duha/</link>
       <pubDate>Thu, 22 May 2014 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/veselka-je-ukrajinsky-duha/</guid>
+      <guid>https://michalberg.cz/veselka-je-ukrajinsky-duha/</guid>
       <description>&lt;p&gt;Poslední půlrok pro mě znamenal obrovskou hromadu zážitků, setkání a nových objevů. Mám za sebou organizaci barcampu i blešího trhu nebo tři skvělé akumulátory s limi okolo zelených. Debaty s europoslancem, senátorku i vsetínskými seniory. Výlety do Sudet i do Kodaně. Start projektů Skutečně zdravá škola a Vsetínské fórum. Nervydrásající hokejovou sérii Opava-Vsetín. Večeři v domácí restauraci i koncert Mňágy v Opicích. Přednášky pro byznysmeny i studenty gymnázia. Pracovní cesty za novým podnikatelským dobrodružstvím, další růst naší firmy a další šikovné lidi v ní.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Honza</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/honza/</link>
+      <link>https://michalberg.cz/honza/</link>
       <pubDate>Thu, 17 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/honza/</guid>
+      <guid>https://michalberg.cz/honza/</guid>
       <description>&lt;p&gt;Byla říjnová neděle, jedna z posledních v roce, kdy venku ještě nemrzne, ale slunce už je schované za mraky. Jel jsem ze školy směrem na Vsetín, který byl už pár měsíců mým domovem. Před přejezdem na Bystřičce zvoní telefon. 974 něco něco. Zastavím a zvednu. &amp;ldquo;Policie Teplice nad Metují. Bohužel vám musím sdělit smutnou zprávu&amp;hellip;&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Česká kontrola pravopisu pro MacOs X</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/ceska-kontrola-pravopisu-pro-macos-x/</link>
+      <link>https://michalberg.cz/ceska-kontrola-pravopisu-pro-macos-x/</link>
       <pubDate>Tue, 16 Apr 2013 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/ceska-kontrola-pravopisu-pro-macos-x/</guid>
+      <guid>https://michalberg.cz/ceska-kontrola-pravopisu-pro-macos-x/</guid>
       <description>&lt;p&gt;Z mnoha webu odkazovaný zdroj pro instalaci slovníku pro českou kontrolu pravopisu v Mac Os X (využijete například v Pages, ale i v poznámkovém bloku či Evernote) se stal nedostupným. Původní adresa  &lt;a href=&#34;http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/cs_CZ.zip&#34;&gt;http://ftp.services.openoffice.org/pub/OpenOffice.org/contrib/dictionaries/cs_CZ.zip&lt;/a&gt; je nefunkční, proto jsem potřebný konfigurační soubor umístil zde na blog, aby ho mohl kdokoli najtít&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;http://michalberg.cz/wp-content/uploads/2013/04/cs_CZ-1.zip&#34;&gt;Soubor cs_CZ.zip stáhnete zde&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Postup jak českou kontrolu pravopisu nainstalovat popisuje například web superapple.cz v článku &lt;a href=&#34;http://superapple.cz/2009/09/jak-na-ceskou-kontrolu-pravopisu-v-mac-os-x-10-6/&#34;&gt;Jak na českou kontrolu pravopisu v Mac OS X 10.6&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Michal Berg: Fyzička je základ, psychika je nutnost</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/michal-berg-fyzicka-je-zaklad-psychika-je-nutnost/</link>
+      <link>https://michalberg.cz/michal-berg-fyzicka-je-zaklad-psychika-je-nutnost/</link>
       <pubDate>Thu, 14 Apr 2011 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/michal-berg-fyzicka-je-zaklad-psychika-je-nutnost/</guid>
+      <guid>https://michalberg.cz/michal-berg-fyzicka-je-zaklad-psychika-je-nutnost/</guid>
       <description>&lt;p&gt;První dubnovou sobotu se v Praze uskutečnil Hervis 1/2 Maraton s rekordní účastí více než devíti a půl tisíce běžců z řad veřejnosti i profesionálů. Trať dlouhou přibližně jednadvacet kilometrů si zaběhl i opavský rodák Michal Berg. „Byla to výzva, přišel s tím jeden můj kamarád, chvíli jsme o tom diskutovali a řekl jsem si, že když to zvládne on, tak já taky. Člověk se nechá lehce vyhecovat, ale podle mě je nejdůležitější, aby si rychle poté podal přihlášku a zaplatil startovné. Jinak je totiž možné, že o tom začne přemýšlet více a rozleží se mu to v hlavě. Když už má vše zařízeno, tak mu nezbývá než jet,“ praví s úsměvem rodák z Opavy žijící ve Vsetíně.&lt;/p&gt;</description>
     </item>
     <item>
       <title>30 let, moje narozeniny a vy  </title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/30-let-moje-narozeniny-a-vy/</link>
+      <link>https://michalberg.cz/30-let-moje-narozeniny-a-vy/</link>
       <pubDate>Wed, 21 Jul 2010 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/30-let-moje-narozeniny-a-vy/</guid>
+      <guid>https://michalberg.cz/30-let-moje-narozeniny-a-vy/</guid>
       <description>&lt;img src=&#34;http://digitalagencyblog.files.wordpress.com/2009/07/30-sign.jpg?w=500&amp;amp;h=342&#34; alt=&#34;&#34; align=&#34;center&#34; /&gt;
 Za pár dní mi bude třicet a k narozeninám, zvláště pak kulatým, se obvykle blízkým lidem dávají dárky. Chtěl bych vás všechny, více i méně blízké, požádat v této souvislosti o něco méně obvyklého
 &lt;p&gt;Nedávejte mi prosím k těmto narozeninám žádný dárek.&lt;/p&gt;

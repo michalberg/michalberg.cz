@@ -1,34 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Inspirace on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/inspirace/</link>
-    <description>Recent content in Inspirace on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Inspirace on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/tags/inspirace/</link>
+    <description>Recent content in Inspirace on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Wed, 15 May 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/inspirace/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/tags/inspirace/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Holky co mění svět</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/holky-co-meni-svet/</link>
+      <link>https://michalberg.cz/holky-co-meni-svet/</link>
       <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/holky-co-meni-svet/</guid>
+      <guid>https://michalberg.cz/holky-co-meni-svet/</guid>
       <description>&lt;p&gt;Mít odvahu vzít osud do vlastních rukou, jít za svým snem a pustit se do nejistého světa podnikání. Na to člověk musí být kus chlapa, že? Ale počkat, kolik chlapů v mém okolí se v poslední době do nějakého podnikání pustilo? Nepočítám-li čistě internetové známé, tak vlastně nikdo. Zato u holek je tomu jinak. Hned pět z nich se v mém okolí v poslední době vrhlo na podnikání. Prosím seznamte se: pětice žen, které mění svět.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Moje inspirativní osobnosti roku 2012</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/inspirace2012/</link>
+      <link>https://michalberg.cz/inspirace2012/</link>
       <pubDate>Mon, 31 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/inspirace2012/</guid>
+      <guid>https://michalberg.cz/inspirace2012/</guid>
       <description>&lt;p&gt;Stejně jako &lt;a href=&#34;http://michalberg.cz/sedm-mych-inspirativnich-osobnosti-roku-2011/&#34;&gt;vloni&lt;/a&gt; přináším seznam několika lidí, kteří mi v uplynulém roce přinesli mnoho inspirativního - ať už tím co dělají, o čem píšou nebo z okamžiků vzájemných setkání.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Michal Škop&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Nikoli halasné pokřikování na demonstracích, vyhraněné články v názorových rubrikách novin či nikdy nekončící a nic neřešící internetové diskuse, ale práce s daty, matematikou, statistikou a technologiemi. Právě těmito způsoby sociolog, matematik, akademik a aktivista sdružení &lt;a href=&#34;http://KohoVolit.eu&#34;&gt;KohoVolit.eu&lt;/a&gt; Michal Škop poukazuje na lidskou hloupost, diletantismus veřejné správy či politiků, nedostatky ve veřejném životě nebo dokonce zjevnou korupci. Ukazuje, jakou sílu mají data a jejich analýza oproti ničím nepodloženým pseudoargumentům. Je tak nejlepším českým ztělesněním hesla &lt;em&gt;&lt;a href=&#34;http://edition.cnn.com/2012/03/25/opinion/pahlka-code-government/index.html&#34;&gt;To fix the government, call in the geeks!&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Muž ze Strany zelených: Úředníci nás neuživí. Lidé, podnikejte</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</link>
+      <link>https://michalberg.cz/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</guid>
+      <guid>https://michalberg.cz/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</guid>
       <description>&lt;p&gt;Pro budoucnost Česka není nejdůležitější, aby zde do dotovaných průmyslových zón umisťovaly své montovny zahraniční firmy, ale aby se co nejvíce lidí pokusilo podnikat a vytvářet tak další pracovní místa. Státní úředníci nás v budoucnu neuživí. V rozhovoru pro ParlamentníListy.cz to řekl úspěšný podnikatel a předseda Strany Zelených ve Vsetíně Michal Berg. Řeč byla i o aroganci některých politiků a korupci.&lt;/p&gt;
 &lt;p&gt;více na &lt;a href=&#34;http://www.parlamentnilisty.cz/zpravy/Muz-ze-Strany-zelenych-Urednici-nas-neuzivi-Lide-podnikejte-240853&#34;&gt;Parlamentnilisty.cz&lt;/a&gt;&lt;/p&gt;</description>
     </item>

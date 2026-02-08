@@ -1,25 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Zeman on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/zeman/</link>
-    <description>Recent content in Zeman on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Zeman on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/tags/zeman/</link>
+    <description>Recent content in Zeman on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Tue, 29 Jan 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/zeman/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/tags/zeman/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Opravdu jsme na lživou předvolební reklamu krátcí?</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/lziva-reklama/</link>
+      <link>https://michalberg.cz/lziva-reklama/</link>
       <pubDate>Tue, 29 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/lziva-reklama/</guid>
+      <guid>https://michalberg.cz/lziva-reklama/</guid>
       <description>&lt;p&gt;Opravdu je spravedlnost krátká na ty, kteří v rozporu se zákonem publikovali v médiích neoznačenou politickou reklamu, jak píše &lt;a href=&#34;http://www.lidovky.cz/volebni-zakon-pri-jeho-poruseni-neni-cesta-jak-ulozit-sankci-pr5-/zpravy-domov.aspx?c=A130128_174156_ln_domov_spa&#34;&gt;v tomto rozhovoru David Ondračka z Transparency International&lt;/a&gt;? Nemyslím si to. Zatímco trestní oznámení pro pomluvu, které podal Karel Schwarzenberg, bude zřejmě odloženo a samotný zákon o volbě prezidenta sankce neobsahuje, napadlo mě využít pro postih těch zakázaných reklam zákon o regulaci reklamy. Předem přiznávám, že jsem právní laik a dokážu pochopit, poku můj laický názor nějaký opravdový právník bude rozporovat.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Prezidentská volba: Kampaň proti Fischerovi relativizuje Zemanovo nebezpečí</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/prezidentska-volba/</link>
+      <link>https://michalberg.cz/prezidentska-volba/</link>
       <pubDate>Tue, 08 Jan 2013 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/prezidentska-volba/</guid>
+      <guid>https://michalberg.cz/prezidentska-volba/</guid>
       <description>&lt;p&gt;Na rozdíl od všech ostatních voleb nemám žádného favorita, kterého mohu doporučit s klidným srdcem. Nejprve napíšu, proč je pro mě přímá volba pozitivem a potom něco o tom, jak bych si přál, aby rozumní lidé hlasovali.&lt;/p&gt;
 &lt;p&gt;Bez ohledu na to, jaký bude výsledek, jsem rád, že přímou volbu máme - naše společnost se potřebuje neustále učit demokracii a co jiného je přímá volba prezidenta, než všem pochopitelný a jasně čitelný výukový program v reálném světě. A to i s tím rizikem, že volby může vyhrát někdo opravdu nechutný. Bude to škola demokracie, v našem případě pak škola ne tolik voličů, jako politických stran a jejich volebních strategií pro příští volby.&lt;/p&gt;</description>
     </item>

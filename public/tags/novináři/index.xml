@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Novináři on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/novin%C3%A1%C5%99i/</link>
-    <description>Recent content in Novináři on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Novináři on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/tags/novin%C3%A1%C5%99i/</link>
+    <description>Recent content in Novináři on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Wed, 14 Nov 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/novin%C3%A1%C5%99i/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/tags/novin%C3%A1%C5%99i/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jak se vyrábí nenávist</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/jak-se-vyrabi-nenavist/</link>
+      <link>https://michalberg.cz/jak-se-vyrabi-nenavist/</link>
       <pubDate>Wed, 14 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/jak-se-vyrabi-nenavist/</guid>
+      <guid>https://michalberg.cz/jak-se-vyrabi-nenavist/</guid>
       <description>&lt;p&gt;Novinky.cz ve svém článku &amp;ldquo;&lt;a href=&#34;http://www.novinky.cz/vanoce/284678-brusel-letos-radeji-nevztyci-vanocni-strom-ma-strach-z-islamistu.html&#34;&gt;Brusel letos raději nevztyčí vánoční strom. Má strach z islamistů&lt;/a&gt;&amp;rdquo; píšou.&lt;/p&gt;
 &lt;blockquote&gt;&#34;Metropoli Belgie letos nezkrášlí vánoční strom, který tradičně stával na hlavním náměstí. Rozhodla tak bruselská radnice kvůli obavám z muslimské komunity, již by nasvícený křesťanský symbol Vánoc prý mohl urazit. Napsal to server Right Perspective.
 &lt;/blockquote&gt;

@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Rozhovor on Michal Berg</title>
-    <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/rozhovor/</link>
-    <description>Recent content in Rozhovor on Michal Berg</description>
-    <generator>Hugo -- 0.152.2</generator>
+    <title>Rozhovor on Michal Berg - archiv článků, komentáře, kontakty</title>
+    <link>https://michalberg.cz/tags/rozhovor/</link>
+    <description>Recent content in Rozhovor on Michal Berg - archiv článků, komentáře, kontakty</description>
+    <image>
+      <title>Michal Berg - archiv článků, komentáře, kontakty</title>
+      <url>https://michalberg.cz/og-image.jpg</url>
+      <link>https://michalberg.cz/og-image.jpg</link>
+    </image>
+    <generator>Hugo -- 0.146.0</generator>
     <language>cs-cz</language>
     <lastBuildDate>Fri, 14 Sep 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/tags/rozhovor/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://michalberg.cz/tags/rozhovor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Muž ze Strany zelených: Úředníci nás neuživí. Lidé, podnikejte</title>
-      <link>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</link>
+      <link>https://michalberg.cz/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</link>
       <pubDate>Fri, 14 Sep 2012 00:00:00 +0000</pubDate>
-      <guid>https://legendary-space-guacamole-wrwq7r9xp9hgxg7-1313.app.github.dev/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</guid>
+      <guid>https://michalberg.cz/muz-ze-strany-zelenych-urednici-nas-neuzivi-lide-podnikejte/</guid>
       <description>&lt;p&gt;Pro budoucnost Česka není nejdůležitější, aby zde do dotovaných průmyslových zón umisťovaly své montovny zahraniční firmy, ale aby se co nejvíce lidí pokusilo podnikat a vytvářet tak další pracovní místa. Státní úředníci nás v budoucnu neuživí. V rozhovoru pro ParlamentníListy.cz to řekl úspěšný podnikatel a předseda Strany Zelených ve Vsetíně Michal Berg. Řeč byla i o aroganci některých politiků a korupci.&lt;/p&gt;
 &lt;p&gt;více na &lt;a href=&#34;http://www.parlamentnilisty.cz/zpravy/Muz-ze-Strany-zelenych-Urednici-nas-neuzivi-Lide-podnikejte-240853&#34;&gt;Parlamentnilisty.cz&lt;/a&gt;&lt;/p&gt;</description>
     </item>
