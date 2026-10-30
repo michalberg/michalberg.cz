@@ -7,12 +7,7 @@ description: "Spolupředseda českých Zelených komentuje triumf jeho francouzs
 author: "Michal Berg"
 source: "Deník Referendum"
 source_url: "https://denikreferendum.cz/clanek/31414-zeleni-ve-francii-z-nuly-na-sto"
-image: "/images/2025/zeleni-ve-francii-z-nuly-na-sto.jpg"
 ---
-
-↗
-
-Francouzské zelené vede v současnosti Julien Bayou (vlevo). Zde spolu s Janisem Varufakisem během protestů Nuit Debout. Foto GD
 
 Úspěchy zelených kandidátů a kandidátek ve francouzských komunálních volbách, které navázaly na překvapivě dobrý výsledek v [eurovolbách před rokem](https://denikreferendum.cz/clanek/29666-na-zapade-zeleni-uspeli--dorazi-nekdy-zelena-vlna-i-do-ceskych-zemi), naznačují, že to nemusí být extrémní pravice, s kým se Macron utká v prezidentských volbách 2022. Stále více se skloňuje možnost, že hlavním vyzyvatelem bude kandidát Zelených. A to mluvíme o straně, která v roce 2017 úplně vypadla z francouzského parlamentu.
 
